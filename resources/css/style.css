@@ -114,9 +114,8 @@
     .container-2 {
         width: 100%;
         background-color: white;
-        height: 1000px;
+        height: 720px;
         display: flex;
-        margin-bottom: 32px;
     }
 
     .main-left {
@@ -136,6 +135,7 @@
 
     #author {
         padding-top: 32px;
+        margin-bottom: 32px;
     }
 
     .main-right {
@@ -168,6 +168,58 @@
         text-decoration: none;
         color: rgba(0, 0, 255, 0.664);
     }
+
+    .container-3 {
+        width: 100%;
+        background-color: rgb(211, 210, 210);
+        box-sizing: border-box;
+    }
+
+    .container-3-inner-box {
+        margin: 32px 72px;
+        padding-bottom: 32px;
+        display: flex;
+        flex-direction: rows;
+        flex-wrap: wrap;
+    }
+
+    .container-3 h1 {
+        text-align: center;
+        padding-top: 32px;
+        color: rgb(77, 77, 77);
+    }
+
+    .courses-box {
+        display: flex;
+        background-color: white;
+        flex-direction: column;
+        margin: 16px 16px;
+        width: 30%;
+        float: left;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    .courses-box img {
+        height: auto;
+    }
+
+    .courses-box-text {
+        float: left;
+        padding: 0;
+        margin: 24px 16px;
+        color: rgb(77, 77, 77);
+
+    }
+
+    .courses-box-text h3 {
+        font-weight: lighter;
+        color: rgb(77, 77, 77);
+    }
+
+
+
+
 
 
 }
