@@ -111,6 +111,65 @@
         margin: 32px 24px;
     }
 
+    .container-2 {
+        width: 100%;
+        background-color: white;
+        height: 1000px;
+        display: flex;
+        margin-bottom: 32px;
+    }
+
+    .main-left {
+        width: 60%;
+        display: col;
+        margin: 32px 24px;
+        color: rgb(77, 77, 77);
+    }
+
+    .main-left img {
+        width: 100%;
+    }
+
+    .main-left .main-text {
+        width: 100%;
+    }
+
+    #author {
+        padding-top: 32px;
+    }
+
+    .main-right {
+        width: 40%;
+    }
+
+    .campus-box {
+        display: flex;
+        padding: 16px 16px;
+    }
+
+    .campus-box img {
+        width: 35%;
+        height: auto;
+        margin: 16px 16px;
+    }
+
+    .campus-box-text {
+        width: 65%;
+        text-align: left;
+        color:  rgb(77, 77, 77);
+        margin: 8px;
+    }
+
+    #grey-background {
+        background-color: rgb(211, 210, 210);
+    }
+
+    .campus-box-text a {
+        text-decoration: none;
+        color: rgba(0, 0, 255, 0.664);
+    }
+
+
 }
 
 @media only screen and (max-width: 999px) {
